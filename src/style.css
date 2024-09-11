@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'SF-Pro-Display';
+    font-style: medium;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./assets/SF-Pro/SFPRODISPLAYMEDIUM.OTF) format('otf');
+  }
+
+  .dm-serif-display-regular {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-serif-display-regular-italic {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+}
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'SF-Pro-Display',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+}
+
+h1 {
+  font-family: 'DM Serif Display', 'Times New Roman', Times, serif;
+  /* font-size: 3.75rem; */
+  line-height: 1;
+}
+
+h2 {
+  font-family: 'DM Serif Display', 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+h3 {
+  
+  font-size: 1.25rem;
+  line-height: 1.8;
+}
+
+.linear-bg-1 {
+  background: rgb(152, 161, 197);
+
+  background: linear-gradient(0deg, rgb(152, 161, 197) 0%, hsla(229, 28%, 88%, 1) 100%);
+  
+  background: -moz-linear-gradient(0deg, rgb(152, 161, 197) 0%, hsla(229, 28%, 88%, 1) 100%);
+  
+  background: -webkit-linear-gradient(0deg, rgb(152, 161, 197) 0%, hsla(229, 28%, 88%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#727A9A", endColorstr="#D8DBE9", GradientType=1 );
+}
+
+.linear-bg-2 {
+  background: rgb(152, 161, 197);
+
+  background: linear-gradient(180deg, rgb(152, 161, 197) 0%, hsla(229, 28%, 88%, 1) 100%);
+  
+  background: -moz-linear-gradient(180deg, rgb(152, 161, 197) 0%, hsla(229, 28%, 88%, 1) 100%);
+  
+  background: -webkit-linear-gradient(180deg, rgb(152, 161, 197) 0%, hsla(229, 28%, 88%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#727A9A", endColorstr="#D8DBE9", GradientType=1 );
+}
+
+.custom-radial-gradient1 {
+  background: hsla(228, 17%, 53%, 1);
+
+  background: radial-gradient(circle, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+
+  background: -moz-radial-gradient(circle, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+
+  background: -webkit-radial-gradient(circle, hsla(228, 17%, 53%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#727A9A", endColorstr="#D8DBE9", GradientType=1);
+}
