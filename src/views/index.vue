@@ -36,7 +36,7 @@ const titleElement = ref<HTMLElement | null>(null);
 const textElement = ref<HTMLElement | null>(null);
 
 const sections = [
-    { ref: section0, content: '', text: 'haahahahahahha' },
+    { ref: section0, content: '', text: '' },
     { ref: section1, content: 'Postaw na doświadczenie.', text: 'Setki zakończonych spraw dają nam możliwość rozpatrywania szerokiego wachlarza problemów w świetle własnych, sprawdzonych rozwiązań.' },
     { ref: section2, content: 'O kancelarii', text: 'Przez lata na rynku niezmiennie stawiamy na zaufanie i jakość.' },
     { ref: section3, content: 'Opinie klientów', text: 'Najlepszym dowodem skuteczności oraz jakości świadczonych usług są opinie tych którzy z nich skorzystali:' },

@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { useRoute } from 'vue-router'
 import topBar from '../../components/topBar.vue';
 import contactGeneral from '../../components/contactGeneral.vue'
 import articleHeader from '../../components/articleHeader.vue'
-const route = useRoute()
+import ArticleSideMenu from '../../components/articleSideMenu.vue';
+
 </script>
 
 <template>
@@ -11,7 +11,7 @@ const route = useRoute()
     <div class="z-0 relative top-24">
         <articleHeader title="Prawo karne" subheading="adwokat Wrocław" />
     </div>
-    <div class="h-fit w-3/5 relative left-48 z-20 p-12 pt-48 text-pretty">
+    <div class="h-fit w-3/5 relative m-auto z-20 p-12 pt-48 text-pretty">
         <div>
             <h2>Adwokat do spraw prawa karnego Wrocław</h2>
             <p><strong>Prawo karne</strong> to dziedzina prawa, która określa czyny będące przestępstwami, grożące za
@@ -163,10 +163,8 @@ const route = useRoute()
                 poczty e-mail oraz przy użyciu formularza kontaktowego znajdującego się na stronie.</p>
 
         </div>
+        <ArticleSideMenu />
     </div>
-    <p>
-        <strong>Current route path:</strong> {{ route.fullPath }}
-    </p>
     <contactGeneral />
 </template>
 

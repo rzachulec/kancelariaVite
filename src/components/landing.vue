@@ -1,13 +1,13 @@
 <template>
     <div class="h-screen w-screen relative z-30 custom-radial-gradient1" ref="initialSection">
         <div
-            class="flex sticky z-20 bg-transparent lg:top-60 top-20 lg:left-24 lg:p-0 p-8 left-0 h-fit lg:w-1/3 w-full  items-start opacity-100 backdrop-blur-lg">
+            class="flex sticky z-20 bg-transparent lg:top-80 top-20 lg:left-32 lg:p-0 p-8 left-0 h-fit lg:w-1/3 w-full  items-start opacity-100 backdrop-blur-md">
             <div class="flex-col h-1/2 w-full">
                 <div
-                    class="relative font-semibold top-0 left-0 2xl:text-7xl xl:text-6xl text-4xl h-2/3 text-slate-700 p-6 text-balance">
+                    class="relative font-semibold top-0 left-0 2xl:text-8xl xl:text-6xl text-4xl h-2/3 text-slate-700 p-6 text-balance">
                     <h1>Od ponad 25 lat chronimy Twoje prawa.</h1>
                 </div>
-                <div class="xl:text-3xl md:text-2xl text-xl m-6 font-normal">
+                <div class="xl:text-2xl md:text-2xl text-xl m-6 font-normal">
                     <button onclick="location.href='#kontakt'"
                         class="w-full h-fit p-3 mt-4 backdrop-blur-2xl rounded-full text-slate-600 bg-gradient-to-r from-white/25 to-white/50 hover:bg-white/60 transition-all overflow-hidden flex items-center justify-between pr-8 hover:pr-0">
                         <div class="ml-4">
@@ -21,7 +21,7 @@
             </div>
         </div>
         <div
-            class="absolute bottom-0 right-0 lg:w-4/5 md:w-[600px] m-0 p-0 max-h-screen mix-blend-screen overflow-hidden">
+            class="absolute bottom-0 right-0 lg:w-4/5 md:w-[600px] m-0 p-0 max-h-screen mix-blend-screen contrast-150 overflow-hidden">
             <img src="../assets/ladyJustice.png" alt="">
         </div>
     </div>

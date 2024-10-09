@@ -2,6 +2,8 @@
 import topBar from '../components/topBar.vue';
 // import contactGeneral from '../components/contactGeneral.vue'
 import articleHeader from '../components/articleHeader.vue'
+import ContactGeneral from '../components/contactGeneral.vue';
+
 </script>
 
 <template>
@@ -112,4 +114,5 @@ import articleHeader from '../components/articleHeader.vue'
         </ol>
         <p>&nbsp;</p>
     </div>
+    <contactGeneral />
 </template>

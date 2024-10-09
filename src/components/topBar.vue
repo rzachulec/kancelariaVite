@@ -28,7 +28,7 @@ export default {
 <template>
 
     <div
-        class="flex w-screen backdrop-blur-2xl h-[10vh] fixed top-0 z-50 items-center justify-between bg-white/40 shadow-md">
+        class="flex w-screen backdrop-blur-2xl min-h-20 h-[10vh] fixed top-0 z-50 items-center justify-between bg-white/40 shadow-md">
         <div class="flex h-full justify-center items-center">
             <RouterLink to="/" class="flex h-full justify-center items-center">
                 <img src="../assets/kancelariaLogo.png" class="h-[80%] mx-3" alt="VL-logo">
@@ -48,7 +48,7 @@ export default {
             </div>
             <div
                 class="lg:inline-block px-5 py-3 m-2 text-2xl bg-indigo-900 bg-opacity-0 text-slate-700 font-semibold rounded-full hover:bg-white/40 transition-all hidden lg:visible">
-                <RouterLink to="/about">O nas</RouterLink>
+                <RouterLink to="/o-kancelarii">O nas</RouterLink>
             </div>
             <div
                 class="lg:inline-block px-5 py-3 m-2 text-2xl bg-indigo-900 bg-opacity-0 text-slate-700 font-semibold rounded-full hover:bg-white/40 transition-all hidden lg:visible">

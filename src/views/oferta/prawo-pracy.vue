@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { useRoute } from 'vue-router'
 import topBar from '../../components/topBar.vue';
 import contactGeneral from '../../components/contactGeneral.vue'
 import articleHeader from '../../components/articleHeader.vue'
-const route = useRoute()
+import ArticleSideMenu from '../../components/articleSideMenu.vue';
+
 </script>
 
 <template>
@@ -85,7 +85,8 @@ const route = useRoute()
             <p>W pierwszym rzędzie przeanalizuję Państwa sprawę i ustalę na czym polega problem prawny. Następnie
                 zaproponuję strategię działania i przedstawię Państwu prawdopodobny przebieg postępowania w Sądzie.
                 <strong>Przygotuję Was do rozprawy</strong>, a w jej trakcie będę dbał o należyte zabezpieczenie Państwa
-                interesów.</p>
+                interesów.
+            </p>
             <p>Jestem dużym zwolennikiem polubownych metod rozwiązywania sporów. Jakkolwiek mogą one się wydawać Państwu
                 niemożliwe do osiągnięcia, tak w przeszłości wielokrotnie udawało mi się wypracować optymalne
                 porozumienie. Korespondencja pomiędzy profesjonalnymi pełnomocnikami jest inna – oderwana od emocji i
@@ -112,7 +113,8 @@ const route = useRoute()
                 <strong>adwokat prawo pracy Wrocław</strong> – <a href="https://adwokat-kaleta.pl/kontakt/">zapraszam
                     do nawiązania kontaktu.</a> Przeanalizuję Państwa stan faktyczny i zaproponuję kilka rozwiązań
                 problemu. Nie pozostawiajcie Państwo problemów prawnych samych sobie. One nigdy same się nie rozwiążą, a
-                bierna postawa może tylko przyczynić się do powstania negatywnych skutków prawnych.</p>
+                bierna postawa może tylko przyczynić się do powstania negatywnych skutków prawnych.
+            </p>
             <p>W razie jakichkolwiek pytań z zakresu <strong>prawa pracy</strong> – pozostaję do Państwa dyspozycji.</p>
             <h2><strong>Wykonuję pracę na podstawie umowy zlecenie – czy nie mogę skorzystać z ochrony prawnej?</strong>
             </h2>
@@ -186,15 +188,12 @@ const route = useRoute()
                 poczty e-mail oraz przy użyciu formularza kontaktowego znajdującego się na stronie.</p>
 
         </div>
+        <ArticleSideMenu />
     </div>
-    <p>
-        <strong>Current route path:</strong> {{ route.fullPath }}
-    </p>
     <contactGeneral />
 </template>
 
 <style scoped>
-
 p {
     margin-top: 1rem;
 }
@@ -202,5 +201,4 @@ p {
 h2 {
     margin-top: 2rem;
 }
-
 </style>
