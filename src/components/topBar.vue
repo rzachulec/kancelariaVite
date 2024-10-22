@@ -43,15 +43,15 @@ export default {
         </div>
         <div class="absolute right-0 mx-4 flex justify-center items-center">
             <div
-                class="lg:inline-block px-5 py-3 m-2 text-2xl bg-indigo-900 bg-opacity-0 text-slate-700 font-semibold rounded-full hover:bg-white/40 transition-all hidden lg:visible">
+                class="lg:inline-block px-5 py-3 m-2 text-2xl bg-indigo-900 bg-opacity-0 text-slate-700 font-semibold rounded-full bg-white/30 hover:bg-white/50 transition-all hidden lg:visible">
                 <RouterLink to="/oferta">Oferta</RouterLink>
             </div>
             <div
-                class="lg:inline-block px-5 py-3 m-2 text-2xl bg-indigo-900 bg-opacity-0 text-slate-700 font-semibold rounded-full hover:bg-white/40 transition-all hidden lg:visible">
+                class="lg:inline-block px-5 py-3 m-2 text-2xl bg-indigo-900 bg-opacity-0 text-slate-700 font-semibold rounded-full bg-white/30 hover:bg-white/50 transition-all hidden lg:visible">
                 <RouterLink to="/o-kancelarii">O nas</RouterLink>
             </div>
             <div
-                class="lg:inline-block px-5 py-3 m-2 text-2xl bg-indigo-900 bg-opacity-0 text-slate-700 font-semibold rounded-full hover:bg-white/40 transition-all hidden lg:visible">
+                class="lg:inline-block px-5 py-3 m-2 text-2xl bg-indigo-900 bg-opacity-0 text-slate-700 font-semibold rounded-full bg-white/30 hover:bg-white/50 transition-all hidden lg:visible">
                 <a href="#kontakt" rel="noopener noreferrer">
                     Kontakt
                 </a>

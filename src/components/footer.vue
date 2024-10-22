@@ -1,6 +1,9 @@
 <template>
     <div class="flex-col w-screen h-fit bg-gray-900 relative xl:px-60 md:p-24 py-12 px-6 z-20 text-slate-300 justify center">
-        <h2>Kancelaria adwokacka Violetta Lis</h2>
+        <div class="flex mb-5">
+            <img src="../assets/kancelaria.ico" alt="Logo kancelarii" class="h-14 pr-3">
+            <h2>Kancelaria Adwokacka Violetta Lis</h2>
+        </div>
         <div class="flex justify-start">
             <div>
                 <h3>Data wpisu na listę adwokatów: 1997-01-23</h3>

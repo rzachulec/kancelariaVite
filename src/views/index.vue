@@ -37,9 +37,9 @@ const textElement = ref<HTMLElement | null>(null);
 
 const sections = [
     { ref: section0, content: '', text: '' },
-    { ref: section1, content: 'Postaw na doświadczenie.', text: 'Setki zakończonych spraw dają nam możliwość rozpatrywania szerokiego wachlarza problemów w świetle własnych, sprawdzonych rozwiązań.' },
-    { ref: section2, content: 'O kancelarii', text: 'Przez lata na rynku niezmiennie stawiamy na zaufanie i jakość.' },
-    { ref: section3, content: 'Opinie klientów', text: 'Najlepszym dowodem skuteczności oraz jakości świadczonych usług są opinie tych którzy z nich skorzystali:' },
+    { ref: section1, content: 'Doświadczenie, które procentuje.', text: 'Setki zakończonych spraw dają nam możliwość rozpatrywania szerokiego wachlarza problemów w świetle własnych, sprawdzonych rozwiązań.' },
+    { ref: section2, content: 'Nasza Kancelaria', text: 'Od lat budujemy zaufanie, łącząc wysoką jakość usług z niezachwianą reputacją na rynku prawniczym.' },
+    { ref: section3, content: 'Opinie klientów', text: 'Najlepszym potwierdzeniem naszej skuteczności i profesjonalizmu są opinie osób, które nam zaufały:' },
     { ref: section4, content: 'Kontakt', text: 'Zapraszamy do kontaktu drogą telefoniczą lub mailową. Wizyty w kancelarii prosimy uprzednio umawiać w celu ustalenia dostępności. Mogą państwo również skorzystać z formularza kontatktowago: po otrzymaniu zgłoszenia skontaktujemy się z państwem mailowo lub, w przypadku podania numeru kontaktowego, telefonicznie.' }
 ];
 
@@ -91,7 +91,7 @@ onMounted(() => {
             <div class="relative w-full font-semibold top-0 lg:top-1/3 left-0 m-0 2xl:text-6xl xl:text-5xl lg:text-4xl text-2xl text-slate-700 p-3 text-balance break-words hyphens-auto"
                 ref="titleElement">
                 <h1>{{ dynamicTitle.text }}</h1>
-                <div class="mt-12 text-2xl font-normal" ref="textElement">
+                <div class="mt-12 text-2xl font-normal text-left" ref="textElement">
                     <p>
                         {{  dynamicText.text }}
                     </p>

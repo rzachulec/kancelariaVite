@@ -9,7 +9,7 @@ import { RouterLink } from 'vue-router';
                 <img src="../assets/mecenas.jpg" alt="" class="w-full h-fit mr-16 lg:w-2/3">
                 <div class="w-2/3">
                     <h1 class="text-6xl italic">
-                        ,,To sąd 1. instancji wrzucił to gówno do wiatraka!"
+                        "Obrońca nie jest narzędziem sądu, lecz czynnikiem ustalenia prawdy".
                     </h1>
                     <p class="my-6">Każdy dobry Mecenas ma obowiązek przestrzegać norm etycznych, chronić prawa i
                         wolności
@@ -30,9 +30,9 @@ import { RouterLink } from 'vue-router';
                         się pewnie i miała pełne wsparcie na każdym etapie postępowania.</p>
                     <RouterLink to="/o-kancelarii">
                         <div
-                            class="w-full h-fit p-3 mt-8 backdrop-blur-2xl rounded-full text-slate-600 bg-gradient-to-r from-white/25 to-white/50 hover:bg-white/60 transition-all overflow-hidden flex items-center justify-between pr-8 hover:pr-0 text-xl" >
+                            class="w-full h-fit p-3 mt-8 backdrop-blur-2xl rounded-full text-slate-600 bg-gradient-to-r from-white/25 to-white/50 hover:bg-white/60 transition-all overflow-hidden flex items-center justify-between pr-8 hover:pr-0 text-xl">
                             <div class="ml-4">
-                                Zobacz więcej
+                                Dowiedz się więcej
                             </div>
                             <span class="material-icons text-3xl mr-4 p-0 mt-0.5">arrow_forward
                             </span>

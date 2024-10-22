@@ -8,14 +8,14 @@
                         <div class="bg-white/60 flex items-center rounded-lg lg:text-2xl text-xl">
                             <a href="tel:508241320" class="w-full flex justify-between items-center lg:p-8 p-3 px-6">
                                 <i class="fas fa-phone"></i>
-                                <p>+48 508 241 320</p>
+                                <span>+48 508 241 320</span>
                             </a>
                         </div>
                         <div class="bg-white/60 flex items-center rounded-lg lg:text-2xl text-xl">
                             <a href="mailto:violetta.lis@ska.pl"
                                 class="w-full flex justify-between items-center lg:p-8 p-3 px-6">
                                 <i class="fas fa-envelope"></i>
-                                <p>violetta.lis@ska.pl</p>
+                                <span>violetta.lis@ska.pl</span>
                             </a>
                         </div>
                         <div class="lg:col-span-2 bg-white/60 flex items-center rounded-lg lg:text-2xl text-xl">
@@ -23,8 +23,8 @@
                                 class="w-full flex justify-between items-center lg:p-8 p-3 px-6">
                                 <i class="fas fa-location-dot"></i>
                                 <div class="flex flex-wrap text-right justify-end">
-                                    <p>ul. Sądowa 4,</p>
-                                    <p class="ml-2">50-046 Wrocław</p>
+                                    <span>ul. Sądowa 4,</span>
+                                    <span class="ml-2">50-046 Wrocław</span>
                                 </div>
                             </a>
                         </div>

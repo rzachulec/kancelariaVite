@@ -5,8 +5,7 @@
 <template>
     <div class="p-24">
         <h2>Zobacz pozostałe artykuły:</h2>
-        <ul class="w-full">
-            <li>
+        
                 <RouterLink to="/oferta/prawo-cywilne">
                         <div
                             class="w-full h-fit p-2 mt-4 rounded-full text-slate-800 bg-gradient-to-r from-white/25 to-white/50 hover:bg-white/60 transition-all overflow-hidden flex items-center justify-between pr-8 hover:pr-0 text-lg" >
@@ -17,8 +16,7 @@
                             </span>
                         </div>
                     </RouterLink>
-            </li>
-            <li>
+
                 <RouterLink to="/oferta/prawo-rodzinne">
                         <div
                             class="w-full h-fit p-2 mt-4 rounded-full text-slate-800 bg-gradient-to-r from-white/25 to-white/50 hover:bg-white/60 transition-all overflow-hidden flex items-center justify-between pr-8 hover:pr-0 text-lg" >
@@ -29,8 +27,7 @@
                             </span>
                         </div>
                     </RouterLink>
-            </li>
-            <li>
+
                 <RouterLink to="/oferta/prawo-karne">
                         <div
                             class="w-full h-fit p-2 mt-4 rounded-full text-slate-800 bg-gradient-to-r from-white/25 to-white/50 hover:bg-white/60 transition-all overflow-hidden flex items-center justify-between pr-8 hover:pr-0 text-lg" >
@@ -41,8 +38,7 @@
                             </span>
                         </div>
                     </RouterLink>
-            </li>
-            <li>
+
                 <RouterLink to="/oferta/prawo-administracyjne">
                         <div
                             class="w-full h-fit p-2 mt-4 rounded-full text-slate-800 bg-gradient-to-r from-white/25 to-white/50 hover:bg-white/60 transition-all overflow-hidden flex items-center justify-between pr-8 hover:pr-0 text-lg" >
@@ -53,8 +49,7 @@
                             </span>
                         </div>
                     </RouterLink>
-            </li>
-            <li>
+
                 <RouterLink to="/oferta/prawo-spadkowe">
                         <div
                             class="w-full h-fit p-2 mt-4 rounded-full text-slate-800 bg-gradient-to-r from-white/25 to-white/50 hover:bg-white/60 transition-all overflow-hidden flex items-center justify-between pr-8 hover:pr-0 text-lg" >
@@ -65,8 +60,7 @@
                             </span>
                         </div>
                     </RouterLink>
-            </li>
-            <li>
+
                 <RouterLink to="/oferta/prawo-pracy">
                         <div
                             class="w-full h-fit p-2 mt-4 rounded-full text-slate-800 bg-gradient-to-r from-white/25 to-white/50 hover:bg-white/60 transition-all overflow-hidden flex items-center justify-between pr-8 hover:pr-0 text-lg" >
@@ -77,7 +71,6 @@
                             </span>
                         </div>
                     </RouterLink>
-            </li>
-        </ul>
+
     </div>
 </template>
