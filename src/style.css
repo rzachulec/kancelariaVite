@@ -78,11 +78,11 @@ h3 {
 .custom-radial-gradient1 {
   background: rgb(0, 0, 0);
 
-  background: radial-gradient(circle, rgb(0, 0, 0) 0%, hsla(229, 28%, 88%, 1) 100%);
+  background: radial-gradient(circle, rgb(152, 161, 197) 0%, hsla(229, 28%, 88%, 1) 100%);
 
-  background: -moz-radial-gradient(circle, rgb(0, 0, 0) 0%, hsla(229, 28%, 88%, 1) 100%);
+  background: -moz-radial-gradient(circle, rgb(152, 161, 197) 0%, hsla(229, 28%, 88%, 1) 100%);
 
-  background: -webkit-radial-gradient(circle, rgb(204, 181, 241) 0%, rgb(255, 255, 255) 100%);
+  background: -webkit-radial-gradient(circle, rgb(152, 161, 197) 0%, hsla(229, 28%, 88%, 1) 100%);
 
   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#727A9A", endColorstr="#D8DBE9", GradientType=1);
 }
